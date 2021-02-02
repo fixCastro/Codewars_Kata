@@ -12,4 +12,4 @@ def sum_digits(number):
     return sum(int(i) for i in str(abs(number)))
 
 if __name__ == '__main__':
-    print(sum_digits(-32)))
+    print(sum_digits(-32))
