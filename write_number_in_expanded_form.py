@@ -17,5 +17,9 @@ def expanded_form(num):
             final += (e + '0' * a + ' + ')
     return final[0:len(final)-3]
 
+def expanded_form_short(num):
+    num = list(str(num))
+    return ' + '.join(x + '0' * (len(num) - y - 1) for y,x in enumerate(num) if x != '0')
+
 if __name__ == '__main__':
     print(expanded_form(70304))
