@@ -1,4 +1,4 @@
 # Codewars_Kata
 https://www.codewars.com/
 
-Just having fun and training Python, in this case, with codewars katas.
+Just having fun in Python with codewars katas.
