@@ -19,7 +19,7 @@ def expanded_form(num):
 
 def expanded_form_short(num):
     num = list(str(num))
-    return ' + '.join(x + '0' * (len(num) - y - 1) for y,x in enumerate(num) if x != '0')
+    return ' + '.join(e + '0' * (len(num) - i - 1) for i,e in enumerate(num) if e != '0')
 
 if __name__ == '__main__':
-    print(expanded_form(70304))
+    print(expanded_form_short(70304))
